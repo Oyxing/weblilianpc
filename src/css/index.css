@@ -1,0 +1,261 @@
+.center {
+    width: 100%;
+    height: 100vh;
+    padding: 90px 22px 40px 122px;
+}
+
+* {
+    font-family: "微软雅黑";
+    list-style: none;
+}
+
+.center-c {
+    width: 100%;
+    height: calc( 100vh - 120px);
+}
+
+a {
+    text-decoration: none
+}
+
+.tablebox .el-table td,
+.tablebox .el-table th {
+    padding: 7px 0 !important;
+}
+
+.tablebox .el-table td,
+.tablebox .el-table th.is-leaf {
+    border-bottom: 0 !important;
+}
+
+.tablebox .el-table--border::after,
+.tablebox .el-table--group::after,
+.tablebox .el-table::before {
+    background: #fff;
+}
+
+.tablebox .el-table th>.cell {
+    text-align: left;
+}
+
+.tablebox .el-table .cell {
+    text-align: left;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #515151;
+}
+
+.tablebox .el-table__body-wrapper .el-table_1_column_5 .cell {
+    font-weight: bold !important;
+    color: #ff940a !important;
+}
+
+.tablebox .el-table__body-wrapper .el-table_1_column_7 .cell {
+    font-weight: bold !important;
+    color: #f00 !important;
+}
+
+.tablebox .el-table__body-wrapper .el-table__row {
+    cursor: pointer;
+}
+
+.el-tabs__item {
+    font-family: "微软雅黑";
+}
+
+.h-biao {
+    background: #518df2;
+    color: #fff;
+}
+
+.d-top {
+    width: 100%;
+}
+
+.d-top i {
+    font-size: 20px;
+    line-height: 22px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    color: #6b6b6b;
+}
+
+.d-top-nav {
+    float: left;
+    font: 100 14px/14px "微软雅黑";
+    padding: 0 20px;
+    height: 14px;
+    border-right: 1px solid #d1d1d1;
+    text-align: center;
+    margin-top: 4px;
+    cursor: pointer;
+    color: #2ba8ff;
+}
+
+.d-top-nav:nth-last-child(2) {
+    border: 0;
+}
+
+.d-top-nav:last-child {
+    border: 0;
+    float: right;
+    padding-right: 0;
+}
+
+.el-carousel__indicators {
+    bottom: 5px !important;
+    right: -17px !important;
+    left: 83% !important;
+}
+
+.el-carousel__button {
+    width: 7px !important;
+    height: 7px !important;
+}
+
+.el-input--suffix .el-input__inner {
+    /* padding-right: 0 !important; */
+    height: 33px !important;
+    /* border: 0 !important; */
+    width: 120px !important;
+    /* border-radius: 2px !important; */
+}
+
+.el-input__icon {
+    line-height: 35px !important;
+}
+
+.el-date-editor.el-input,
+.el-date-editor.el-input__inner {
+    width: 130px !important;
+}
+
+.el-button {
+    padding: 8px 18px !important;
+    line-height: 0 !important;
+}
+
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li {
+    border: 1px solid #e4e4e4 !important;
+    background: #fff !important;
+    margin: 0 8px 0 0 !important;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+    background: #518df2 !important;
+}
+
+.el-pagination {
+    padding: 0 !important;
+}
+
+.center-c-right-f .el-tabs--border-card {
+    box-shadow: none !important;
+    -webkit-box-shadow: 0 !important;
+}
+
+.el-tabs--border-card>.el-tabs__content {
+    padding: 0 !important;
+}
+
+.el-dialog__header {
+    padding: 0 !important;
+    background: #313131 !important;
+    text-align: center;
+    height: 52px !important;
+}
+
+.el-dialog__header>.center-c-right-q[data-v-5995a800] {
+    line-height: 30px !important;
+}
+
+.el-dialog__title {
+    color: #fff !important;
+}
+
+.el-dialog__body {
+    padding: 6px 50px !important;
+}
+
+.el-dialog__footer {
+    padding: 0px 50px 20px 50px !important;
+}
+
+.dialog-from {
+    width: 100%;
+    height: 52px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.dialog-from input {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    outline: none;
+}
+
+.xuanze .el-input--medium .el-input__inner {
+    width: 100% !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    border: 1px solid #eee;
+}
+
+.shangchuan .el-upload--picture-card {
+    width: 80px !important;
+    height: 80px !important;
+    line-height: 80px !important;
+}
+
+.shangchuan .el-upload-list--picture-card .el-upload-list__item {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #fff;
+}
+
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+::-webkit-scrollbar-track {
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+
+/*定义滑块 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: #ececec;
+}
+
+.changpingxinxi-tian div .el-dialog {
+    width: 38%;
+}
+
+.changpingxinxi-tian div .el-dialog__title {
+    line-height: 54px;
+}
+
+.changpingxinxi-tian div .el-dialog__body {
+    padding: 50px 50px !important;
+}
+
+.changpingxinxi-tian div .el-button--primary {
+    padding: 16px 38px !important;
+}
+
+.changpingxinxi-tian div .el-dialog__footer {
+    padding: 0px 50px 38px 50px !important;
+}
+
+
+/*定义最上方和最下方的按钮*/
